@@ -6,7 +6,7 @@ function Navbarr() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
       <Container >
-        <Navbar.Brand href="https://react-bootstrap.github.io/">Learn React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand  href="https://react-bootstrap.github.io/">Learn React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav>
@@ -14,6 +14,8 @@ function Navbarr() {
               <Nav.Link href="/window">Window</Nav.Link>
               <Nav.Link href="/hook">Hook</Nav.Link>
               <Nav.Link href="/hook2">Hook2</Nav.Link>
+              <Nav.Link href="/video">Video</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>

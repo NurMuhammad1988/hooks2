@@ -7,6 +7,8 @@ import Window from './Components/Window';
 import Hook from './Components/Hook';
 import Hook2 from './Components/Hook2';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Video from './Components/Video'
+
 
 
 
@@ -23,6 +25,8 @@ function App() {
         <Route path='/Window' element={<Window />} />
         <Route path='/Hook' element={<Hook />} />
         <Route path='/Hook2' element={<Hook2 />} />
+        <Route path='/Video' element={<Video />} />
+
       </Routes>
 
     </Router>
