@@ -17,15 +17,15 @@ function Hook2() {
     return (
         <div className='container '>
 
-            <Row className='justify-content-around'>
+            <Row className='justify-content-around flex-wrap'>
                 <h3 className='mt-1 text-center text-danger'>{users}</h3>
                 <hr />
-                <button className='btn btn-primary  mt-5 w-25  ' onClick={() => setUsers('posts/1')}>posts</button>
-                <button className='btn btn-warning  mt-5 w-25  ' onClick={() => setUsers('photos/1')}>photos</button>
-                <button className='btn btn-secondary  mt-5 w-25  ' onClick={() => setUsers('todos/1')}>comments</button>
+                <button className='btn btn-primary    mt-5  col-md-3 ' onClick={() => setUsers('posts/1')}>posts</button>
+                <button className='btn btn-warning    mt-5  col-md-3 ' onClick={() => setUsers('photos/1')}>photos</button>
+                <button className='btn btn-secondary  mt-5  col-md-3 ' onClick={() => setUsers('todos/1')}>comments</button>
             </Row>
 
-            <pre className='preee'>
+            <pre className='bg-dark text-white flex-wrap mt-3 p-4'>
 
                 {JSON.stringify(data, null, 2)}
 

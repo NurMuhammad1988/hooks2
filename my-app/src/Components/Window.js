@@ -19,7 +19,7 @@ export default function Window() {
 
         <div className=''>
 
-            <Row className='justify-content-around'>
+            <Row className='justify-content-around flex-wrap'>
                 <h1 className='d-flex justify-content-center'>{counter}</h1>
                 <button className='btn btn-danger w-25 mb-5 ' onClick={ayiruv}>Ayiruv</button>
                 <button className='btn btn-primary w-25 mb-5 ' onClick={qoshuv}>Qo'shuv</button>

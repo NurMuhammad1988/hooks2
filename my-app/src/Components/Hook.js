@@ -11,15 +11,14 @@ function Hook() {
     }, [cars]);
 
     return (
-        <div className='container '>
+        <div className='container   '>
 
-            <Row className='justify-content-around'>
+            <Row className='justify-content-around flex-wrap    '>
                 <h3 className='mt-1 text-center text-danger'>{cars}</h3>
                 <hr />
-                <button className='btn btn-primary  mt-5 w-25  ' onClick={() => setCars('Audi')}>Audi</button>
-
-                <button className='btn btn-warning  mt-5 w-25  ' onClick={() => setCars('Mers')}>Mers</button>
-                <button className='btn btn-secondary  mt-5 w-25  ' onClick={() => setCars('Chevrolet')}>Chevrolet</button>
+                <button className='btn btn-primary  mt-5  col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-12 ' onClick={() => setCars('Audi')}>Audi</button>
+                <button className='btn btn-warning  mt-5  col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-12' onClick={() => setCars('Mers')}>Mers</button>
+                <button className='btn btn-secondary mt-5 col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-12' onClick={() => setCars('Chevrolet')}>Chevrolet</button>
             </Row>
 
 

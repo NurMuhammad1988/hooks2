@@ -27,7 +27,7 @@ function Counter() {
 
     return (
         <div>
-            <div className="container">
+            <div className="container flex-wrap">
 
                 <Row>
                     <h2>Name</h2>
