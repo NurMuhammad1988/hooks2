@@ -11,7 +11,7 @@ function Hook() {
     }, [cars]);
 
     return (
-        <div className='container   '>
+        <div className='container-fluid   '>
 
             <Row className='justify-content-around flex-wrap    '>
                 <h3 className='mt-1 text-center text-danger'>{cars}</h3>
