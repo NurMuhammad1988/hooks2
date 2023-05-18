@@ -1,13 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import { Row } from 'react-bootstrap'
 
-
-
 function Hook2() {
 
     const [users, setUsers] = useState("users/1");
     const [data, setData] = useState({});
-
 
     useEffect(() => {
         fetch(`https://jsonplaceholder.typicode.com/${users}`)
@@ -34,9 +31,11 @@ function Hook2() {
 
             </pre>
 
-
         </div>
     )
+    
 }
 
 export default Hook2;
+
+

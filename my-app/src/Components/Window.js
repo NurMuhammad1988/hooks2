@@ -1,11 +1,9 @@
 import React, { useState } from 'react'
 import { Row } from 'react-bootstrap'
 
-
-
-
 export default function Window() {
 
+    
     const [counter, setCounter] = useState(0)
 
     function qoshuv() {
@@ -19,12 +17,12 @@ export default function Window() {
 
     return (
 
-        <div>
+        <div className=''>
 
-            <Row>
+            <Row className='justify-content-around'>
                 <h1 className='d-flex justify-content-center'>{counter}</h1>
-                <button className='btn btn-danger w-50 mb-5 ' onClick={ayiruv}>Ayiruv</button>
-                <button className='btn btn-primary w-50 mb-5 ' onClick={qoshuv}>Qo'shuv</button>
+                <button className='btn btn-danger w-25 mb-5 ' onClick={ayiruv}>Ayiruv</button>
+                <button className='btn btn-primary w-25 mb-5 ' onClick={qoshuv}>Qo'shuv</button>
             </Row>
 
         </div>

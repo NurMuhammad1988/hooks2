@@ -45,7 +45,8 @@ function Counter() {
                 </Row>
 
                 <Row>
-                    <button className='btn btn-warning w-50 m-auto' onClick={inc}>Click</button>
+                    <button className='btn btn-warning w-50 m-auto mt-5
+                    ' onClick={inc}>Click</button>
                 </Row>
 
                 <Row>
